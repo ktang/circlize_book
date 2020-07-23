@@ -140,8 +140,8 @@ creates a new track.
 The input data can be a single data frame or a list of data frames.
 
 ```{r, eval = FALSE}
-circos.genoimcRainfall(bed)
-circos.genoimcRainfall(bed_list, col = c("red", "green"))
+circos.genomicRainfall(bed)
+circos.genomicRainfall(bed_list, col = c("red", "green"))
 ```
 
 However, if the amount of regions in a cluster is high, dots will overlap, and
